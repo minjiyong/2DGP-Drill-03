@@ -20,15 +20,34 @@ def run_circle():
                 boy.draw_now(x, y)
                 delay(0.1)
 
+def run_top():
+        print('TOP')
+        pass
+
+def run_right():
+        print('RIGHT')
+        pass
+
+def run_down():
+        print('DOWN')
+        pass
+
+def run_left():
+        print('LEFT')
+        pass
         
 
 def run_rectangle():
         print('RECTANGLE')
-        pass
+        run_top()
+        run_right()
+        run_down()
+        run_left()
+        
 
 
 while(True):
-        run_circle()
+        #run_circle()
         run_rectangle()
 
 
