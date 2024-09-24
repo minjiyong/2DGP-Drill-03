@@ -55,6 +55,9 @@ def run_rectangle():
         run_down()
         run_left()
 
+def run_left_to_top():
+        for x in range(0, 350, 10):
+
 def run_triangle():
         print('TRIANGLE')
         run_left_to_top()
