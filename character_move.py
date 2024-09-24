@@ -56,10 +56,12 @@ def run_rectangle():
         run_left()
 
 def run_left_to_top():
+        print('LEFT TO TOP')
         for i in range(0, 400, 10):
                 draw_boy(i, i)
 
 def run_top_to_right():
+        print('TOP TO RIGHT')
         j = 400
         for i in range(400, 800, 10):
                 j = j - 10
@@ -67,6 +69,7 @@ def run_top_to_right():
         pass
 
 def run_right_to_left():
+        print('RIGHT TO LEFT')
         for i in range(800, 0, -10):
                 draw_boy(i, 0)
         pass
@@ -80,8 +83,8 @@ def run_triangle():
 
 
 while(True):
-        #run_circle()
-        #run_rectangle()
+        run_circle()
+        run_rectangle()
         run_triangle()
 
 
