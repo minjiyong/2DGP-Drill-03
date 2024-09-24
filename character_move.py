@@ -60,6 +60,10 @@ def run_left_to_top():
                 draw_boy(i, i)
 
 def run_top_to_right():
+        j = 400
+        for i in range(400, 800, 10):
+                j = j - 10
+                draw_boy(i, j)
         pass
 
 def run_right_to_left():
@@ -67,7 +71,7 @@ def run_right_to_left():
 
 def run_triangle():
         print('TRIANGLE')
-        run_left_to_top()
+        #run_left_to_top()
         run_top_to_right()
         run_right_to_left()
         pass
