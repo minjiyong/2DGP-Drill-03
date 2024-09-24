@@ -54,12 +54,19 @@ def run_rectangle():
         run_right()
         run_down()
         run_left()
-        
+
+def run_triangle():
+        print('TRIANGLE')
+        run_left_to_top()
+        run_top_to_right()
+        run_right_to_left()
+        pass
 
 
 while(True):
-        run_circle()
-        run_rectangle()
+        #run_circle()
+        #run_rectangle()
+        run_triangle()
 
 
 close_canvas()
