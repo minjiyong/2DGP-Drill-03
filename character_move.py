@@ -67,11 +67,13 @@ def run_top_to_right():
         pass
 
 def run_right_to_left():
+        for i in range(800, 0, -10):
+                draw_boy(i, 0)
         pass
 
 def run_triangle():
         print('TRIANGLE')
-        #run_left_to_top()
+        run_left_to_top()
         run_top_to_right()
         run_right_to_left()
         pass
