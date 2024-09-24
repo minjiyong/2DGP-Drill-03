@@ -56,7 +56,14 @@ def run_rectangle():
         run_left()
 
 def run_left_to_top():
-        for x in range(0, 350, 10):
+        for i in range(0, 400, 10):
+                draw_boy(i, i)
+
+def run_top_to_right():
+        pass
+
+def run_right_to_left():
+        pass
 
 def run_triangle():
         print('TRIANGLE')
